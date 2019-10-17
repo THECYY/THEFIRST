@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner M=new Scanner(System.in);
+        int a=M.nextInt();
+        int b=M.nextInt();
+        int c=M.nextInt();
+        int d=M.nextInt();
+        if (d>=b){
+           System.out.print(c-a);
+           System.out.print(" ");
+           System.out.print(d-b);
+        }else{
+           System.out.print(c-a-1);
+           System.out.print(" ");
+           System.out.print(d+60-b);
+        }
+    }
+}

@@ -1,0 +1,26 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner M=new Scanner(System.in);
+        int n=M.nextInt();
+        int ss[]=new int[n];
+        for (int i=0;i<=n-1;i++){
+            int b=M.nextInt();
+            ss[i]=b;
+        }
+        int op=0;
+        loop:for (int j=0;j<=n-1;j++){
+                 for (int k=0;k<=n-2;k++){
+                if (j!=k){
+                for (int p=k+1;p<=n-1;p++){
+                   if (p!=j&p!=k&ss[j]==ss[k]+ss[p]){
+                       op++;
+                       continue loop;
+                   }
+                }
+                }
+            }
+        }
+        System.out.println(op);
+    }
+}

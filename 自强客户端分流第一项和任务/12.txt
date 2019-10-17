@@ -1,0 +1,38 @@
+import java.util.*;
+public class Main{
+    static int s,n,week,los,start,startn,losn,weekn;
+    public static void main(String[] args){
+        Scanner M=new Scanner(System.in);
+        int x=M.nextInt();
+        n=M.nextInt();
+        if (n+x>=8){
+        week=(n-8+x)/7;
+        los=(n-8+x-week*7);
+        start=8-x;
+        if (start<=2){
+            startn=0;
+        }else{
+            startn=start-2;
+        }
+        weekn=week*5;
+        if (los<=5){
+            losn=los;
+        }else{
+            losn=5;
+        }
+    s=(losn+startn+weekn)*250;
+    }if (x+n==6){
+        s=(n-1)*250;
+    }if (x+n==7){
+        if (6<=x&x<=7){
+            s=0;
+        }if (x<=5){
+            s=(n-2)*250;
+        }
+    }
+    if (x+n<=5){
+        s=n*250;
+    }
+      System.out.println(s);  
+    }
+}

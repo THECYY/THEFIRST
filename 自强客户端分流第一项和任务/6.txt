@@ -1,0 +1,31 @@
+import java.util.*;
+public class Main{
+    static int max=0,s[]=new int[7],j=0;
+    public static void main(String[] args){
+        Scanner M=new Scanner(System.in);
+        int a1=M.nextInt();
+        int a2=M.nextInt();
+        int b1=M.nextInt();
+        int b2=M.nextInt();
+        int c1=M.nextInt();
+        int c2=M.nextInt();
+        int d1=M.nextInt();
+        int d2=M.nextInt();
+        int e1=M.nextInt();
+        int e2=M.nextInt();
+        int f1=M.nextInt();
+        int f2=M.nextInt();
+        int g1=M.nextInt();
+        int g2=M.nextInt();
+        int a=a1+a2,b=b1+b2,c=c1+c2,d=d1+d2,e=e1+e2,f=f1+f2,g=g1+g2;
+        int ss[]={a,b,c,d,e,f,g};
+        max=Math.max(Math.max(Math.max(ss[0],ss[1]),Math.max(ss[2],ss[3])),Math.max(Math.max(ss[4],ss[5]),ss[6]));
+        for (int i=0;i<=6;i++){
+            if (ss[i]==max){
+               s[j]=i+1;
+               j++;
+            }
+        }
+        System.out.println(s[0]);
+    }
+}

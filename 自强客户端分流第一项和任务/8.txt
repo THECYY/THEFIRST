@@ -1,0 +1,26 @@
+import java.util.*;
+public class Main{
+    static int min,d,b,c;
+    public static void main(String[] args){
+        Scanner M=new Scanner(System.in);
+        int a=M.nextInt();
+        int b1=M.nextInt();
+        int b2=M.nextInt();
+        int c1=M.nextInt();
+        int c2=M.nextInt();
+        int d1=M.nextInt();
+        int d2=M.nextInt();
+        b=(int)Math.ceil((double)a/b1)*b2;
+        c=(int)Math.ceil((double)a/c1)*c2;
+        d=(int)Math.ceil((double)a/d1)*d2;
+        if (c>=b){
+            min=b;
+        }else{
+            min=c;
+        }
+        if (d<=min){
+            min=d;
+        }
+        System.out.println(min);
+    }
+}

@@ -1,0 +1,52 @@
+server:
+  port: 8081
+  tomcat:
+    uri-encoding: utf-8
+
+servlet:
+  con
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 1000MB
+  aop:
+    auto: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://ziqiangpublic.mysql.rds.aliyuncs.com:3306/zq_api_new_edu?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: ziqiang_rds
+    password: ziqiang_studio_mysql
+  redis:
+    host: 120.26.134.179
+    port: 6379
+    password: HB@!udnfXzBWum#0H2rY
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    root: info
+#  file:
+#    path: ./logs
+
+audience:
+  # 代表这个JWT的接收对象,存入audience
+  clientId: 098f6bcd4621d373cade4e832627b4f6
+  # 密钥, 经过Base64加密, 可自行替换
+  base64Secret: MDk4ZjZiY2Q0NjIxZDM3M2NhZGU0ZTgzMjYyN2I0ZjY=
+  # JWT的签发主体，存入issuer
+  name: restapiuser
+  # 过期时间，时间戳 默认172800  三天
+  expiresSecond: 172800
+
+zq-config:
+  middlewareUrl: https://majorswitch.ziqiang.net.cn/middleware/
+  secretKey: pWkFxUfehzeBzaj9w7lIfU7YjyAQOdiFzPLlCuaT
+  PICUPLOADLIMIT: 5
+  zqAuthUrl: http://106.14.139.144:8082/

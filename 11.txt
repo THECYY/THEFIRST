@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main{
+    static double s,i,r=0,n=0;
+    public static void main(String[] args){
+        Scanner M=new Scanner(System.in);
+        s=M.nextFloat();
+        for (r=0;r<s;r=r+i){
+            i=Math.pow(0.98,n);
+            i=2*i;
+            n++;
+        }
+        System.out.println((int)n);
+    }

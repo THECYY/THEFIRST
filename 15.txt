@@ -1,0 +1,28 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner M=new Scanner(System.in);
+        int a1=M.nextInt();
+        int a2=M.nextInt();
+        int ss[]=new int[2*a2];
+        int s[]=new int[a1+1];
+        int esd=0;
+        for (int i=0;i<=2*a2-1;i++){
+            ss[i]=M.nextInt();
+        }
+        for (int j=0;j<=a1;j++){
+            s[j]=j+1;
+        }
+        for (int k=0;k<=2*a2-2;k=k+2){
+            for(int t=ss[k];t<=ss[k+1];t++){
+                s[t]=0;
+            }
+        }
+        for (int u=0;u<=a1;u++){
+            if (s[u]!=0){
+                esd++;
+            }
+        }
+        System.out.println(esd);
+    }
+}

@@ -1,0 +1,29 @@
+import java.util.*;
+public class Main{
+    static int ot=0;
+    public static void main(String[] args){
+        Scanner M=new Scanner(System.in);
+        int sss[]=new int[101];
+        for (int j=0;j<=100;j++){
+            int b=M.nextInt();
+             if (b!=0){
+               sss[j]=b;
+           }else{
+               sss[j]=b;
+               break;
+           }
+        }
+        for (int p=0;p<=100;p++){
+            if (sss[p]!=0){
+                ot++;
+            }else{
+                break;
+            }
+        }
+        int ss[]=new int[ot];
+         for (int op=0;op<=ot-1;op++){
+             ss[op]=sss[ot-op-1];
+              System.out.print(ss[op]+" ");
+         }
+    }
+}

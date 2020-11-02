@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner M=new Scanner(System.in);
+        int a=M.nextInt();
+        if (0<a&a<=150){
+            double c=0.4463*a;
+            System.out.println(String.format("%.1f",c));
+        }if (150<a&a<=400){
+            double c=0.4463*150+(a-150)*0.4663;
+            System.out.println(String.format("%.1f",c));
+        }if (a>400){
+            double c=0.4463*150+(400-150)*0.4663+(a-400)*0.5663;
+            System.out.println(String.format("%.1f",c));
+        }
+    }
+}

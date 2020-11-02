@@ -1,0 +1,39 @@
+import java.util.*;
+public class Main{
+    static int and=0,los=0,s=0;
+    static int ss[]=new int[12];
+    public static void main(String[] args){
+        Scanner M=new Scanner(System.in);
+        int a1=M.nextInt();
+        int a2=M.nextInt();
+        int a3=M.nextInt();
+        int a4=M.nextInt();
+        int a5=M.nextInt();
+        int a6=M.nextInt();
+        int a7=M.nextInt();
+        int a8=M.nextInt();
+        int a9=M.nextInt();
+        int a10=M.nextInt();
+        int a11=M.nextInt();
+        int a12=M.nextInt();
+        int p[]={a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12};
+        for (int i=0;i<=11;i++){
+        s=s+300-p[i];
+        if (s>=100){
+            and=and+s/100*100;
+            s=s%100;
+        }if (0<=s&s<100){
+            s=s;
+        }if (s<0){
+            s=0;
+            ss[los]=i+1;
+            los++;
+        }}
+        if (ss[0]==0){
+            System.out.println(and*6/5+s);
+            }else{
+            System.out.println(-ss[0]);
+            }
+        
+    }
+}

@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main{
+ public static void main(String[] args){
+     Scanner M=new Scanner(System.in);
+     int a=M.nextInt();
+     int b=M.nextInt();
+     int c;
+     c=a+b;
+     System.out.println(c);
+ }     
+}

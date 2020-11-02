@@ -1,0 +1,12 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner M=new Scanner(System.in);
+        int a=M.nextInt();
+        int b=M.nextInt();
+        double c=a+b*0.1;
+        c/=1.9;
+        int d=(int)c;
+        System.out.println(d);
+    }
+}

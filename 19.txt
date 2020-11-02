@@ -1,0 +1,27 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner M=new Scanner(System.in);
+        int n=M.nextInt();
+        if (n==1){
+            System.out.println(1);
+        }else{
+            int cc=M.nextInt();
+            int op=1,a1=1;
+        for (int i=0;i<=n-2;i++){
+            int b=M.nextInt();
+            if (b>cc){
+                op++;
+                if (op>a1){
+                    a1=op;
+                }
+            }else{
+                op=1;
+            }
+            cc=b;
+        }
+        System.out.println(a1);
+        
+    }
+}
+}

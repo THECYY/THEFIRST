@@ -1,0 +1,17 @@
+public class Main{
+    static int a,b,c;
+    public static void main(String[] args){
+    System.out.print(192+" ");
+    System.out.print(384+" ");
+    System.out.println(576);
+    System.out.print(219+" ");
+    System.out.print(438+" ");
+    System.out.println(657);
+    System.out.print(273+" ");
+    System.out.print(546+" ");
+    System.out.println(819);
+    System.out.print(327+" ");
+    System.out.print(654+" ");
+    System.out.println(981);
+}
+}

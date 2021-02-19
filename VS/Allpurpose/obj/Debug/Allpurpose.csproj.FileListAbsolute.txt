@@ -1,0 +1,5 @@
+C:\Users\Administrator\source\repos\HearthStone\Allpurpose\bin\Debug\Allpurpose.dll
+C:\Users\Administrator\source\repos\HearthStone\Allpurpose\bin\Debug\Allpurpose.pdb
+C:\Users\Administrator\source\repos\HearthStone\Allpurpose\obj\Debug\Allpurpose.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\HearthStone\Allpurpose\obj\Debug\Allpurpose.dll
+C:\Users\Administrator\source\repos\HearthStone\Allpurpose\obj\Debug\Allpurpose.pdb

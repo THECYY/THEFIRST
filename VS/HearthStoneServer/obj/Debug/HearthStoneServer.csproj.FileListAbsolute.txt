@@ -1,0 +1,14 @@
+E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\HearthStoneServer\lib\hibernate.cfg.xml
+E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\HearthStoneServer\lib\HearthStoneServer.dll.config
+E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\HearthStoneServer\lib\HearthStoneServer.dll
+E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\HearthStoneServer\lib\HearthStoneServer.pdb
+C:\Users\Administrator\source\repos\HearthStone\HearthStoneServer\obj\Debug\HearthStoneServer.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\HearthStone\HearthStoneServer\obj\Debug\HearthStoneServer.csproj.CopyComplete
+C:\Users\Administrator\source\repos\HearthStone\HearthStoneServer\obj\Debug\HearthStoneServer.dll
+C:\Users\Administrator\source\repos\HearthStone\HearthStoneServer\obj\Debug\HearthStoneServer.pdb
+E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\HearthStoneServer\bin\hibernate.cfg.xml
+E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\HearthStoneServer\bin\HearthStoneServer.dll.config
+E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\HearthStoneServer\bin\HearthStoneServer.dll
+E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\HearthStoneServer\bin\HearthStoneServer.pdb
+E:\photon\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\HearthStoneServer\bin\log4net.config
+C:\Users\Administrator\source\repos\HearthStone\HearthStoneServer\obj\Debug\HearthStoneServer.csprojAssemblyReference.cache

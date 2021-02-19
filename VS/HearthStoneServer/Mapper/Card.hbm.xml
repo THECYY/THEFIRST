@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="HearthStoneServer.Entity" assembly="HearthStoneServer">
+
+  <class name="Card" table="card">
+
+    <id name="Id" column="id" type="Int32">
+      <generator class="native"></generator>
+    </id>
+    <property name="Series" column="series" type="Int32"></property>
+    <property name="Profession" column="profession" type="Int32"></property>
+    <property name="Rarity" column="rarity" type="Int32"></property>
+    <property name="CardType" column="card_type" type="Int32"></property>
+    <property name="Expend" column="expend" type="Int32"></property>
+    <property name="Name" column="name" type="String"></property>
+    <property name="Description" column="description" type="String"></property>
+    <property name="Power" column="power" type="Int32"></property>
+    <property name="Blood" column="blood" type="Int32"></property>
+    <property name="Species" column="species" type="Int32"></property>
+  
+  </class>
+
+</hibernate-mapping>

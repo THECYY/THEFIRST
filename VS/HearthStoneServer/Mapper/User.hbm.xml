@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="HearthStoneServer.Entity" assembly="HearthStoneServer">
+
+  <class name="User" table="user">
+
+    <id name="Id" column="id" type="Int32">
+      <generator class="native"></generator>
+    </id>
+    <property name="UserName" column="user_name" type="String"></property>
+    <property name="Password" column="password" type="String"></property>
+    <property name="Money" column="money" type="Int32"></property>
+    <property name="ArcaneDust" column="arcane_dust" type="Int32"></property>
+  
+  </class>
+
+</hibernate-mapping>
